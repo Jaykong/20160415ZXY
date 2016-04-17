@@ -1,6 +1,6 @@
 //
 //  main.m
-//  2.5练习1.2
+//  2.5练习1.3
 //
 //  Created by silin chen on 16/4/17.
 //  Copyright © 2016年 silin chen. All rights reserved.
@@ -11,12 +11,12 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        int i;
-        i = 1;
-        NSLog(@"Testing...");
-        NSLog(@"....%i",1);
-        NSLog(@"...%i", i + 1);
-        NSLog(@"..%i", i + 2);
+        int x1, x2, x3;
+        x1 = 87;
+        x2 = 15;
+        x3 = x1-x2;
+        
+        NSLog(@"The x3 of %i - %i is %i",x1,x2,x3);
     }
     return 0;
 }
