@@ -40,7 +40,7 @@
 -(void) print
 
 {
-    NSLog(@"%e+%e",real,imginary);
+    NSLog(@"%g + %gi",real,imginary);
     
     
 }
@@ -67,10 +67,10 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Complex *myComplex =[[Complex alloc] init];
         
-        [myComplex setReal: 6e+4];
-        [myComplex serImginary:2e+2];
+        [myComplex setReal: 5];
+        [myComplex serImginary:6];
         
-        NSLog (@"The a + bi is: %e+%e");
+        NSLog (@"The a + bi is: %g + %gi");
         [myComplex real];[myComplex imaginary];
     
     }
