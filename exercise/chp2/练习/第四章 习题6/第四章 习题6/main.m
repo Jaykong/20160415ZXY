@@ -70,8 +70,8 @@ int main(int argc, const char * argv[]) {
         [myComplex setReal: 5];
         [myComplex serImginary:6];
         
-        NSLog (@"The a + bi is: %g + %gi");
-        [myComplex real];[myComplex imaginary];
+        NSLog (@"The a + bi is: %g + %gi",
+        [myComplex real],[myComplex imaginary]);
     
     }
     return 0;
